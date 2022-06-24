@@ -1,37 +1,107 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Progate</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
-  <div class="top-wrapper">
-    <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progateはオンラインプログラミング学習サービスです。</p>
-        <p>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-    </div>
-    
-    
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
 
-  <div class="account">
-    <div class="account-btn">
-      <a class="btn new">
-        新規登録はこちら
-      </a>
-      <p>or</p>
-      <a class="btn facebook fa fa-facebook">
-        Facebookで登録
-      </a>
-      <a class="btn twitter fa fa-twitter">
-        Twitterで登録
-      </a>
-    </div>
-    
-  </div>
-  </div>
-</body>
-</html>
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+.top-wrapper{
+  padding-top: 180px;
+  padding-bottom: 100px;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  color: white;
+  margin: 0 auto;
+  background-size: cover;
+  
+  
+  
+  text-align: center;
+}
+
+.container{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  opacity: 0.7;
+}
+
+.container h1 {
+  font-size: 45px;
+}
+
+.cotainer p {
+  
+}
+
+.btn {
+  
+}
+
+.new {
+  background: #239b76;
+  margin-top: 30px;
+  opacity: 0.8;
+  
+}
+.new:hover {
+  opacity: 1.0;
+}
+
+.facebook {
+  background: #3b5998;
+  opacity: 0.8;
+  margin-right: 5px;
+}
+
+.facebook:hover {
+  opacity: 1.0;
+  
+}
+
+.twitter {
+  background: #55acee;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+
+.twitter:hover {
+  opacity: 1.0;
+}
+
+.btn {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 24px;
+  padding-left: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.account p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+.account-btn p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
